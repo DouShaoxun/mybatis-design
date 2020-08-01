@@ -25,7 +25,7 @@ public class Executor {
         try {
             //1.取出mapper中的数据
             String queryString = mapper.getQueryString();   //select * from user
-            String resultType = mapper.getResultType();     //cn.dsx.mybatisdesign.domain.User
+            String resultType = mapper.getResultType();     //cn.dsx.mybatisdesign.entity.User
             Class domainClass = Class.forName(resultType);
             //2.获取PreparedStatement对象
             pstm = conn.prepareStatement(queryString);

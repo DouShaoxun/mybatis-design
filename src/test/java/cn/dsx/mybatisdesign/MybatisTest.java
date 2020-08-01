@@ -1,7 +1,7 @@
 package cn.dsx.mybatisdesign;
 
 import cn.dsx.mybatisdesign.dao.IUserDao;
-import cn.dsx.mybatisdesign.domain.User;
+import cn.dsx.mybatisdesign.entity.User;
 import cn.dsx.mybatisdesign.mybatis.io.Resources;
 import cn.dsx.mybatisdesign.mybatis.sqlsession.SqlSession;
 import cn.dsx.mybatisdesign.mybatis.sqlsession.SqlSessionFactory;

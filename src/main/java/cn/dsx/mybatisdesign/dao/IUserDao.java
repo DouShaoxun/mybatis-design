@@ -1,6 +1,6 @@
 package cn.dsx.mybatisdesign.dao;
 
-import cn.dsx.mybatisdesign.domain.User;
+import cn.dsx.mybatisdesign.entity.User;
 import cn.dsx.mybatisdesign.mybatis.annotations.Select;
 
 import java.util.List;
